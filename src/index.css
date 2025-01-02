@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem; /* Add padding for fixed header */
+}
+
+body {
+  @apply bg-[#121212] text-white;
+}
+
+/* Gradient text utility */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#121212];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-white/20;
+}

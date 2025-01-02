@@ -1,0 +1,21 @@
+/* Underline animation for navbar links */
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  background: linear-gradient(to right, #9333ea, #3b82f6);
+  transition: all 0.3s ease-out;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
