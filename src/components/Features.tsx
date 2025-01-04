@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { title } from "framer-motion/client";
 import {
   Shield,
   MessageSquare,
@@ -6,6 +7,9 @@ import {
   Volume2,
   Settings,
   Gamepad2,
+  Gift,
+  UserRoundPlus,
+  Music,
 } from "lucide-react";
 
 const features = [
@@ -44,6 +48,24 @@ const features = [
     title: "Games & Fun",
     description:
       "Play and enjoy a variety of games directly within your Discord server.",
+  },
+  {
+    icon: Gift,
+    title: "Giveaways",
+    description:
+      "Host and manage giveaways with ease to engage and reward your community.",
+  },
+  {
+    icon: UserRoundPlus,
+    title: "Welcomer",
+    description:
+      "Welcome new members with custom messages and roles to make them feel at home.",
+  },
+  {
+    icon: Music,
+    title: "Music",
+    description:
+      "Listen to music with friends using the built-in music bot and streaming features.",
   },
 ];
 

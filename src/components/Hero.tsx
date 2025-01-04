@@ -1,6 +1,5 @@
-import Typewriter from "typewriter-effect";
 import { ChevronDown } from "lucide-react";
-import ParticleBackground from "./ParticleBackground/ParticleBackground";
+// import ParticleBackground from "./ParticleBackground/ParticleBackground";
 import webConfig from "../webConfig";
 
 const Hero = () => {
@@ -9,21 +8,11 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
 
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-          <Typewriter
-            options={{
-              strings: [
-                "Your Ultimate Discord Assistant",
-                "Packed With Powerful Commands",
-                "Manage Your Community Easily",
-              ],
-              autoStart: true,
-              loop: true,
-            }}
-          />
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          Empowering Your Discord Community
         </h1>
         <p className="text-gray-300 text-xl mb-8 max-w-2xl mx-auto">
           The all-in-one Discord bot that brings powerful moderation, auto-mod

@@ -9,7 +9,7 @@ const faqs = [
       'Click the "Add to Discord" button at the top of the page and follow the OAuth2 flow to add Cypher to your server. You\'ll need the "Manage Server" permission.',
   },
   {
-    question: "Is Cypher Bot free to use?",
+    question: "Is Cypher completely free to use?",
     answer:
       "Yes! Cypher is completely free to use with all core features. We may offer premium features in the future for advanced users.",
   },

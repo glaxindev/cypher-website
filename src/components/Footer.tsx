@@ -14,7 +14,7 @@ const Footer = () => {
                 alt="Cypher Bot Logo"
                 className="h-10 w-10"
               />
-              <span className="ml-2 text-xl font-bold">Cypher Bot</span>
+              <span className="ml-2 text-xl font-bold">Cypher</span>
             </div>
             <p className="mt-4 text-gray-400">
               Enhance your Discord server with powerful moderation tools and
